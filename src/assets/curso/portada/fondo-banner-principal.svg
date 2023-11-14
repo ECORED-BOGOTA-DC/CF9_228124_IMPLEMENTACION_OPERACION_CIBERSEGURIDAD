@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1338" height="506" viewBox="0 0 1338 506">
+  <defs>
+    <filter id="Trazado_778155" x="0" y="5.043" width="1338" height="480.957" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.4"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-path">
+      <rect id="Rectángulo_373993" data-name="Rectángulo 373993" width="1320" height="506" rx="20" transform="translate(140.333 81)" fill="#440b63"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" y1="0.5" x2="0.923" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#e01650"/>
+      <stop offset="1" stop-color="#e01650" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" y1="0.5" x2="0.923" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ffb206"/>
+      <stop offset="1" stop-color="#ffb206" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" y1="0.5" x2="0.923" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#8f52f5"/>
+      <stop offset="1" stop-color="#8f52f5" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-4" x1="1" y1="0.5" x2="0" y2="0.5" xlink:href="#linear-gradient-2"/>
+    <linearGradient id="linear-gradient-6" x1="0" y1="0.5" x2="1" y2="0.5" xlink:href="#linear-gradient"/>
+  </defs>
+  <g id="Grupo_1065634" data-name="Grupo 1065634" transform="translate(-131.332 -81)">
+    <path id="Trazado_779854" data-name="Trazado 779854" d="M20,0H1300a20,20,0,0,1,20,20V486a20,20,0,0,1-20,20H20A20,20,0,0,1,0,486V20A20,20,0,0,1,20,0Z" transform="translate(140.333 81)" fill="#440b63"/>
+    <g transform="matrix(1, 0, 0, 1, 131.33, 81)" filter="url(#Trazado_778155)">
+      <path id="Trazado_778155-2" data-name="Trazado 778155" d="M-11296-11575s-251.476,196.333-770.416,21c-403.028-111.333-515.277-24.667-549.584,31v378c172.869-5,180.862-200,916.306-20,306.769,50,403.694-79,403.694-79Z" transform="translate(12625 11619)" fill="#440b63"/>
+    </g>
+    <g id="Enmascarar_grupo_48" data-name="Enmascarar grupo 48" clip-path="url(#clip-path)">
+      <g id="Grupo_1064801" data-name="Grupo 1064801" transform="translate(0 7)">
+        <path id="Trazado_777248" data-name="Trazado 777248" d="M217.439,117.755H65.458a52.3,52.3,0,0,1,0-104.594H217.439V0H65.458A65.458,65.458,0,0,0,0,65.458H0a65.458,65.458,0,0,0,65.458,65.458s130.324,3.29,151.982,0S217.439,117.755,217.439,117.755Z" transform="translate(697.227 432.656)" fill="url(#linear-gradient)"/>
+        <path id="Trazado_778368" data-name="Trazado 778368" d="M217.439,117.755H65.458a52.3,52.3,0,0,1,0-104.594H217.439V0H65.458A65.458,65.458,0,0,0,0,65.458H0a65.458,65.458,0,0,0,65.458,65.458s130.324,3.29,151.982,0S217.439,117.755,217.439,117.755Z" transform="translate(191.948 259.313) rotate(90)" fill="url(#linear-gradient-2)"/>
+        <path id="Trazado_778367" data-name="Trazado 778367" d="M217.439,117.755H65.458a52.3,52.3,0,0,1,0-104.594H217.439V0H65.458A65.458,65.458,0,0,0,0,65.458H0a65.458,65.458,0,0,0,65.458,65.458s130.324,3.29,151.982,0S217.439,117.755,217.439,117.755Z" transform="translate(1006.292 631.225) rotate(180)" fill="url(#linear-gradient-3)"/>
+        <rect id="Rectángulo_373430" data-name="Rectángulo 373430" width="88.905" height="12.667" transform="translate(852.714 198.68) rotate(-90)" fill="url(#linear-gradient-4)"/>
+        <rect id="Rectángulo_373992" data-name="Rectángulo 373992" width="88.905" height="12.667" transform="translate(443.595 529.701)" fill="url(#linear-gradient-4)"/>
+        <rect id="Rectángulo_373990" data-name="Rectángulo 373990" width="115.429" height="14.715" transform="translate(1421.333 548.086) rotate(-90)" fill="url(#linear-gradient-6)"/>
+        <rect id="Rectángulo_373991" data-name="Rectángulo 373991" width="115.429" height="14.715" transform="translate(191.948 124.014)" fill="url(#linear-gradient-6)"/>
+      </g>
+    </g>
+  </g>
+</svg>

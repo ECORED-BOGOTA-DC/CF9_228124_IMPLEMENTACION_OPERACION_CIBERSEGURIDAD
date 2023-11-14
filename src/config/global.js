@@ -1,18 +1,15 @@
 export default {
   global: {
-    componenteFormativo: 'Planificación de la evaluación de la seguridad digital',
+    componenteFormativo:
+      'Planificación de la evaluación de la seguridad digital',
     descripcionCurso:
       'Mediante este componente, el aprendiz se capacitará en la identificación de aspectos clave del proceso de evaluación de estrategias de seguridad en organizaciones, fase orientada por el estándar ISO/IEC 27001:2013. Se afianzará en verificar la efectividad de controles de seguridad implementados y, a partir de esta evaluación, establecer propuestas de mejoramiento de la seguridad de activos de información.',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
-    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
+    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.svg'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
-      },
-      {
-        clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+        imagen: require('@/assets/curso/portada/float-1.svg'),
       },
     ],
   },
@@ -145,7 +142,8 @@ export default {
   complementario: [
     {
       tema: 'Principios de auditoría',
-      referencia: 'Organización Internacional de Normalización (2013). <em>Seguridad de la información, ciberseguridad y protección de la privacidad.</em> (ISO 27001).',
+      referencia:
+        'Organización Internacional de Normalización (2013). <em>Seguridad de la información, ciberseguridad y protección de la privacidad.</em> (ISO 27001).',
       tipo: 'Norma técnica',
       link: 'https://www.iso.org/standard/54534.html',
     },
@@ -153,11 +151,13 @@ export default {
   glosario: [
     {
       termino: 'Atributo',
-      significado: 'cualquier propiedad o característica que permite distinguir un objeto de otro.',
+      significado:
+        'cualquier propiedad o característica que permite distinguir un objeto de otro.',
     },
     {
       termino: 'Escala',
-      significado: 'rango de valores organizados con los cuales se evalúa un atributo.',
+      significado:
+        'rango de valores organizados con los cuales se evalúa un atributo.',
     },
     {
       termino: 'Evidencia',
@@ -165,11 +165,13 @@ export default {
     },
     {
       termino: 'Indicador',
-      significado: 'son unidades que permiten medir el desempeño o desarrollo de alguna acción o de algún control.',
+      significado:
+        'son unidades que permiten medir el desempeño o desarrollo de alguna acción o de algún control.',
     },
     {
       termino: 'Métrica',
-      significado: 'conjunto de criterios y condiciones necesarios para medir un control o una acción.',
+      significado:
+        'conjunto de criterios y condiciones necesarios para medir un control o una acción.',
     },
     {
       termino: 'SGSI',
@@ -178,27 +180,37 @@ export default {
   ],
   referencias: [
     {
-      referencia: 'Instituto Nacional de Ciberseguridad (2015). <em>¿Sabes cómo se mide la seguridad de la información en tu empresa?</em> INCIBE. ',
-      link: 'https://www.incibe.es/protege-tu-empresa/blog/mide-seguridad-informacion',
+      referencia:
+        'Instituto Nacional de Ciberseguridad (2015). <em>¿Sabes cómo se mide la seguridad de la información en tu empresa?</em> INCIBE. ',
+      link:
+        'https://www.incibe.es/protege-tu-empresa/blog/mide-seguridad-informacion',
     },
     {
-      referencia: 'ISO (2020). <em>Evaluación del desempeño en ISO 27001.</em> (ISO 27001).',
+      referencia:
+        'ISO (2020). <em>Evaluación del desempeño en ISO 27001.</em> (ISO 27001).',
       link: 'https://normaiso27001.es/evaluacion-del-desempeno-en-iso-27001/',
     },
     {
-      referencia: 'ISO (2020). <em>Fase 8 auditoría interna según ISO 27001.</em> (ISO 27001).',
-      link: 'https://normaiso27001.es/fase-8-auditoría-interna-segun-iso-27001/',
+      referencia:
+        'ISO (2020). <em>Fase 8 auditoría interna según ISO 27001.</em> (ISO 27001).',
+      link:
+        'https://normaiso27001.es/fase-8-auditoría-interna-segun-iso-27001/',
     },
     {
-      referencia: 'ISO (2018). <em>Directrices para la auditoría de los sistemas de gestión.</em> (ISO 19011)',
-      link: 'https://e-collection-icontec-org.bdigital.sena.edu.co/normavw.aspx?ID=75245',
+      referencia:
+        'ISO (2018). <em>Directrices para la auditoría de los sistemas de gestión.</em> (ISO 19011)',
+      link:
+        'https://e-collection-icontec-org.bdigital.sena.edu.co/normavw.aspx?ID=75245',
     },
     {
-      referencia: 'Ministerio de Tecnologías de la Información y Comunicaciones (2016). <em>Guía de Auditoría.</em> MINTIC.',
-      link: 'https://www.mintic.gov.co/gestionti/615/articles-5482_G15_Auditoría.pdf',
+      referencia:
+        'Ministerio de Tecnologías de la Información y Comunicaciones (2016). <em>Guía de Auditoría.</em> MINTIC.',
+      link:
+        'https://www.mintic.gov.co/gestionti/615/articles-5482_G15_Auditoría.pdf',
     },
     {
-      referencia: 'Organización Internacional de Normalización (ISO, 2013). <em>Tecnología de la información - Técnicas de seguridad - Sistemas de gestión de seguridad de la información - Requisitos.</em> (ISO 27001).',
+      referencia:
+        'Organización Internacional de Normalización (ISO, 2013). <em>Tecnología de la información - Técnicas de seguridad - Sistemas de gestión de seguridad de la información - Requisitos.</em> (ISO 27001).',
       link: 'https://www.iso.org/standard/54534.html',
     },
   ],
@@ -225,20 +237,17 @@ export default {
         {
           nombre: 'Eddy Cárdenas',
           cargo: 'Experto temático',
-          centro:
-            'Regional Quindío - Centro de comercio, industria y turismo',
+          centro: 'Regional Quindío - Centro de comercio, industria y turismo',
         },
         {
           nombre: 'Zuleidy María Ruiz Torres',
           cargo: 'Experto temático',
-          centro:
-            'Regional Tolima - Centro Comercio y Servicios',
+          centro: 'Regional Tolima - Centro Comercio y Servicios',
         },
         {
           nombre: 'Gloria Alexandra Orejarena Barrios',
           cargo: 'Diseño instruccional',
-          centro:
-            'Regional Distrito Capital - Centro de Gestión Industrial',
+          centro: 'Regional Distrito Capital - Centro de Gestión Industrial',
         },
         {
           nombre: 'Rafael Neftalí Lizcano Reyes',
@@ -249,8 +258,7 @@ export default {
         {
           nombre: 'Jhon Jairo Rodríguez Pérez',
           cargo: 'Corrección de estilo',
-          centro:
-            'Regional Distrito Capital - Centro de Diseño y Metrología',
+          centro: 'Regional Distrito Capital - Centro de Diseño y Metrología',
         },
         {
           nombre: 'Alix Cecilia Chinchilla Rueda',
@@ -312,7 +320,8 @@ export default {
         },
         {
           nombre: 'Leyson Fabián Castaño Pérez',
-          cargo: 'Validación de recursos educativos digitales y vinculación LMS',
+          cargo:
+            'Validación de recursos educativos digitales y vinculación LMS',
           centro:
             'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },

@@ -1,6 +1,5 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import Inicio from '../../node_modules/ecored-base-pkg/src/views/Inicio.vue'
 import Curso from '../../node_modules/ecored-base-pkg/src/views/Curso.vue'
 
 Vue.use(VueRouter)
@@ -10,7 +9,8 @@ const router = new VueRouter({
     {
       path: '/',
       name: 'inicio',
-      component: Inicio,
+      component: () =>
+        import(/* webpackChunkName: "inicio" */ '../views/Inicio.vue'),
     },
     {
       path: '/introduccion',
@@ -43,6 +43,54 @@ const router = new VueRouter({
           name: 'tema3',
           component: () =>
             import(/* webpackChunkName: "tema3" */ '../views/Tema3.vue'),
+        },
+        {
+          path: 'tema4',
+          name: 'tema4',
+          component: () =>
+            import(/* webpackChunkName: "tema4" */ '../views/Tema4.vue'),
+        },
+        {
+          path: 'tema5',
+          name: 'tema5',
+          component: () =>
+            import(/* webpackChunkName: "tema5" */ '../views/Tema5.vue'),
+        },
+        {
+          path: 'tema6',
+          name: 'tema6',
+          component: () =>
+            import(/* webpackChunkName: "tema6" */ '../views/Tema6.vue'),
+        },
+        {
+          path: 'tema7',
+          name: 'tema7',
+          component: () =>
+            import(/* webpackChunkName: "tema7" */ '../views/Tema7.vue'),
+        },
+        {
+          path: 'tema8',
+          name: 'tema8',
+          component: () =>
+            import(/* webpackChunkName: "tema8" */ '../views/Tema8.vue'),
+        },
+        {
+          path: 'tema9',
+          name: 'tema9',
+          component: () =>
+            import(/* webpackChunkName: "tema9" */ '../views/Tema9.vue'),
+        },
+        {
+          path: 'tema10',
+          name: 'tema10',
+          component: () =>
+            import(/* webpackChunkName: "tema10" */ '../views/Tema10.vue'),
+        },
+        {
+          path: 'tema11',
+          name: 'tema11',
+          component: () =>
+            import(/* webpackChunkName: "tema11" */ '../views/Tema11.vue'),
         },
       ],
     },
