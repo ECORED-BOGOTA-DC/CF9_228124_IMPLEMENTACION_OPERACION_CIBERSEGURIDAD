@@ -78,8 +78,4 @@ export default {
 }
 </script>
 
-<style lang="sass">
-.bloque-texto-b-edit
-  &::before
-    background-color: #EEE5FE !important
-</style>
+<style lang="sass"></style>

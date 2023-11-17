@@ -15,7 +15,7 @@
         p.mb-0 De acuerdo con la norma GTC-ISO 19011:2018, una auditoría de sistemas de gestión se debe establecer bajo ciertas condiciones que permitan la construcción y desarrollo de la misma, en la organización.
     
     .container-title.mb-5
-      h2 Consideraciones Importantes Auditoría
+      h3 Consideraciones Importantes Auditoría
     
     p.mb-5 Las auditorías de los sistemas de gestión de la seguridad de la información, deben ser establecidas teniendo en cuenta algunas condiciones que favorecerán, rotundamente, tanto su construcción como su desarrollo.
 
@@ -61,7 +61,7 @@
 
 <script>
 export default {
-  name: 'Tema3',
+  name: 'Tema5',
   data: () => ({
     // variables de vue
   }),

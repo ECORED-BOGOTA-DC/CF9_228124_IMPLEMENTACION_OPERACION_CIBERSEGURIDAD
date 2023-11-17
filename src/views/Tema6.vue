@@ -58,7 +58,7 @@
 
 <script>
 export default {
-  name: 'Tema3',
+  name: 'Tema6',
   data: () => ({
     // variables de vue
   }),
