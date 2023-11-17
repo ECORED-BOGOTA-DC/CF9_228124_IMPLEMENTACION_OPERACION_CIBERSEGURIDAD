@@ -2,20 +2,20 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 11
       h1 Aplicación de mediciones de seguridad
 
     .col-xl-10.mx-auto.d-flex.flex-wrap.align-items-center.mb-5
-      img.col-lg-5.mb-4.mb-lg-auto(src="@/assets/curso/temas/tema11/img-1.png" style="max-width: 400px" alt="imagen decorativa")
+      img.col-lg-5.mb-4.mb-lg-auto(src="@/assets/curso/temas/tema11/img-1.png" style="max-width: 400px" alt="imagen decorativa" data-aos="fade-right")
       .col-lg-7.ps-lg-4
-        .bloque-texto-b.bloque-texto-b-edit.color-primario.p-4
+        .bloque-texto-b.bloque-texto-b-edit.color-primario.p-4(data-aos="fade-left")
           .bloque-texto-b__texto
             p.mb-0 Los líderes de procesos deben estar informados sobre cuáles son las métricas establecidas, y cómo éstas ayudan a cumplir los objetivos de seguridad, con el fin de que se desarrollen y documenten las acciones encaminadas al cumplimiento de dichos objetivos.
     
-    p.mb-5 Algunas generalidades de suma importancia y que debe tener en cuenta para la aplicación de mediciones de seguridad son:
-    TabsA.color-primario.mb-5
+    p.mb-5(data-aos="fade-right") Algunas generalidades de suma importancia y que debe tener en cuenta para la aplicación de mediciones de seguridad son:
+    TabsA.color-primario.mb-5(data-aos="fade-left")
       .tarjeta.color-primario--borde.p-4(titulo="1. Aplicar mediciones busca" style="background-color: white")
         ul.lista-ul--color.mb-5
           li
@@ -77,7 +77,7 @@
           li
             i.fas.fa-circle(style="color: #8F52F5; font-size: 10px")
             | Ordinal.
-    img.mx-auto(src="@/assets/curso/temas/tema11/img-2.svg" style="max-width: 610px" alt="imagen decorativa")
+    img.mx-auto(src="@/assets/curso/temas/tema11/img-2.svg" style="max-width: 610px" alt="imagen decorativa" data-aos="flip-up")
 </template>
 
 <script>

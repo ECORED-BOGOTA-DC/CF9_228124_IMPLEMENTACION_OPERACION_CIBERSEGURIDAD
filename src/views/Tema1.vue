@@ -2,7 +2,7 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="fade-right")
       .titulo-principal__numero
         span 1
       h1 Fases Sistema de gestión de seguridad de la información
@@ -11,12 +11,12 @@
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img-1.jpg')})`}"
       )
-      .bloque-texto-g__texto.p-4
+      .bloque-texto-g__texto.p-4(data-aos="fade-right")
         p.mb-0 Para comenzar con la profundización en los contenidos de este componente formativo, recuerde las fases de un Sistema de Gestión de la Seguridad de la Información. Tenga presente que ella contempla el planear, el hacer, el verificar y el actuar. En este componente, se enfocará la atención en la fase del verificar, en la cual se realizan las diferentes actividades de evaluación de los controles implementados, a partir de unos ejercicios los cuales pueden ser internos, motivados por la misma compañía, o a través de un tercero de acuerdo a las circunstancias y estado de la implementación en la organización. 
-    p.mb-5 Reafirme sus conocimientos en lo referente a las fases del Sistema de Gestión de Seguridad de la Información (SGSI), en  la siguiente infografía:
+    p.mb-5(data-aos="fade-right") Reafirme sus conocimientos en lo referente a las fases del Sistema de Gestión de Seguridad de la Información (SGSI), en  la siguiente infografía:
 
     .container-100.py-5(style="background-color: rgba(220,206,227,1);")
-      ImagenInfografica.col-xl-6.col-lg-8.mx-auto
+      ImagenInfografica.col-xl-6.col-lg-8.mx-auto(data-aos="fade-left")
         template(v-slot:imagen)
           figure
             img(src='@/assets/curso/temas/tema1/img-2.svg' alt='Esta imagen describe las fases del Sistema de Gestión de Seguridad de la Información (SGSI), la cual se divide en 4 fases (Planear, Hacer, Verificar, Actuar)')

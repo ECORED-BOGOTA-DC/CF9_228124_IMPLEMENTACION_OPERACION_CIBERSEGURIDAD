@@ -2,22 +2,22 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 3
       h1 Tipos de auditoría
     
     .col-xl-10.mx-auto.d-flex.flex-wrap.align-items-center.mb-5
-      img.col-lg-5.mb-4.mb-lg-auto(src="@/assets/curso/temas/tema3/img-1.png" style="max-width: 400px" alt="imagen decorativa")
+      img.col-lg-5.mb-4.mb-lg-auto(src="@/assets/curso/temas/tema3/img-1.png" style="max-width: 400px" alt="imagen decorativa" data-aos="fade-right")
       .col-lg-7.ps-lg-4
-        .bloque-texto-b.bloque-texto-b-edit.color-primario.p-4
+        .bloque-texto-b.bloque-texto-b-edit.color-primario.p-4(data-aos="fade-left")
           .bloque-texto-b__texto
             p.mb-0 De acuerdo con el momento en que se realiza la auditoría, del alcance de la misma y del auditor que la realiza, estas se pueden clasificar en 3 tipos: de primera parte, de segunda parte o de tercera parte.
 
-    .titulo-sexto.color-acento-contenido.mb-3
+    .titulo-sexto.color-acento-contenido.mb-3(data-aos="fade-right")
       h5 Tabla 1.
       span Tipos de auditoría
-    .tabla-a.color-secundario.mb-4
+    .tabla-a.color-secundario.mb-4(data-aos="fade-left")
       table
         caption.ps-0(style="background-color: transparent; font-weight: normal") Nota: tomado de ISO, 2018.
         thead
@@ -35,9 +35,9 @@
             td Otra auditoría externa de parte interesada 
             td Auditoría legal, reglamentaria o similar
     
-    p.mb-5 Pero, ¿cuáles son las especificidades de cada tipo de auditoría? Aquí se los presentamos; revise la siguiente infografiay descúbralo; le sugerimos tomar nota de ello en su libreta personal de apuntes. ¡Adelante!
+    p.mb-5(data-aos="fade-right") Pero, ¿cuáles son las especificidades de cada tipo de auditoría? Aquí se los presentamos; revise la siguiente infografiay descúbralo; le sugerimos tomar nota de ello en su libreta personal de apuntes. ¡Adelante!
 
-    ImagenInfografica.color-acento-contenido.col-xl-10.mx-auto
+    ImagenInfografica.color-acento-contenido.col-xl-10.mx-auto(data-aos="fade-left")
       template(v-slot:imagen)
         figure
           img(src='@/assets/curso/temas/tema3/img-2.svg' alt='Muestra una infografia de las espesificaciones para cada tipo de auditoria')

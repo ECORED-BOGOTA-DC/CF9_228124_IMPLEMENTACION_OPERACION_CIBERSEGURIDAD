@@ -2,15 +2,15 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 7
       h1 Fases de la auditoría
-    p.mb-5 De acuerdo al diagrama de flujo presentado por la metodología de la norma GTC-ISO 19011:2018, se pueden establecer tres fases para el desarrollo de una auditoría: la planeación, la implementación y el monitoreo de la misma.
-    img.mb-5.mx-auto(src="@/assets/curso/temas/tema7/img-1.svg" style="max-width: 400px" alt="imagen decorativa")
-    p.mb-5 Revise la siguiente infografía, y profundice en las fases de la auditoría. Le recordamos que puede llevar registro de los aspectos más destacados, en su libreta personal de apuntes.
+    p.mb-5(data-aos="fade-right") De acuerdo al diagrama de flujo presentado por la metodología de la norma GTC-ISO 19011:2018, se pueden establecer tres fases para el desarrollo de una auditoría: la planeación, la implementación y el monitoreo de la misma.
+    img.mb-5.mx-auto(src="@/assets/curso/temas/tema7/img-1.svg" style="max-width: 400px" alt="imagen decorativa" data-aos="fade-left")
+    p.mb-5(data-aos="fade-right") Revise la siguiente infografía, y profundice en las fases de la auditoría. Le recordamos que puede llevar registro de los aspectos más destacados, en su libreta personal de apuntes.
 
-    ImagenInfografica.color-acento-contenido.col-xl-8.mx-auto.img-info-edit
+    ImagenInfografica.color-acento-contenido.col-xl-8.mx-auto.img-info-edit(data-aos="fade-left")
       template(v-slot:imagen)
         figure
           img(src='@/assets/curso/temas/tema7/img-2.svg' alt='')

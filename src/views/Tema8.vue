@@ -2,21 +2,21 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 8
       h1 Clasificación de auditoría informáticas
 
     .col-xl-10.mx-auto.d-flex.flex-wrap.align-items-center.mb-5
-      img.col-lg-5.mb-4.mb-lg-auto(src="@/assets/curso/temas/tema8/img-1.png" style="max-width: 400px" alt="imagen decorativa")
+      img.col-lg-5.mb-4.mb-lg-auto(src="@/assets/curso/temas/tema8/img-1.png" style="max-width: 400px" alt="imagen decorativa" data-aos="fade-right")
       .col-lg-7.ps-lg-4
-        .bloque-texto-b.bloque-texto-b-edit.color-primario.p-4
+        .bloque-texto-b.bloque-texto-b-edit.color-primario.p-4(data-aos="fade-left")
           .bloque-texto-b__texto
             p.mb-0 Las auditorías, dependiendo del alcance y de los activos a evaluar, se pueden clasificar en: auditoría informática y auditoría de sistemas. Ambas clases de auditorías cuentan con aspectos, principios y elementos específicos en sus fases.
 
-    p.mb-5 Aquí se las presentamos:
+    p.mb-5(data-aos="fade-right") Aquí se las presentamos:
 
-    TabsC.color-secundario.mb-5
+    TabsC.color-secundario.mb-5(data-aos="fade-left")
       .py-3.py-md-4(titulo="Auditoría informática")
         .d-flex.flex-wrap.col-xl-10.mx-auto
           img.col-lg-5.mb-4.mb-lg-auto(src="@/assets/curso/temas/tema8/img-2.png" style="max-width: 400px" alt="imagen decorativa")
