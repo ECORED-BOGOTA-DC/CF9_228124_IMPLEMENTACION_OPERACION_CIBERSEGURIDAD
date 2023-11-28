@@ -16,7 +16,7 @@
     
     p.mb-5(data-aos="fade-right") Algunas generalidades de suma importancia y que debe tener en cuenta para la aplicación de mediciones de seguridad son:
     TabsA.color-primario.mb-5(data-aos="fade-left")
-      .tarjeta.color-primario--borde.p-4(titulo="1. Aplicar mediciones busca" style="background-color: white")
+      .tarjeta.color-primario--borde.p-4(titulo="1. Aplicar mediciones<br class='d-md-none'/> busca" style="background-color: white")
         ul.lista-ul--color.mb-5
           li
             i.fas.fa-circle(style="color: #8F52F5; font-size: 10px")
@@ -30,7 +30,7 @@
           li
             i.fas.fa-circle(style="color: #8F52F5; font-size: 10px")
             | Evaluar la efectividad de los controles de seguridad en la organización.
-      .tarjeta.color-primario--borde.p-4(titulo="2. Según método de evaluación de atributos" style="background-color: white")
+      .tarjeta.color-primario--borde.p-4(titulo="2. Según método de<br class='d-md-none'/> evaluación<br class='d-none d-md-flex d-xxl-none'/> de atributos" style="background-color: white")
         ul.lista-ul--color.mb-5
           li
             i.fas.fa-circle(style="color: #8F52F5; font-size: 10px")
@@ -38,7 +38,7 @@
           li
             i.fas.fa-circle(style="color: #8F52F5; font-size: 10px")
             | #[b Estos son subjetivos:] los que se centran en el criterio de los empleados o de los evaluadores externos.
-      .tarjeta.color-primario--borde.p-4(titulo="3. Métodos de recolección de información" style="background-color: white")
+      .tarjeta.color-primario--borde.p-4(titulo="3. Métodos de<br class='d-md-none'/> recolección de<br class='d-none d-md-flex d-xxl-none'/> información" style="background-color: white")
         p Según forma de aplicar mediciones a atributos, es común realizar:
         ul.lista-ul--color.mb-5
           li
@@ -62,7 +62,7 @@
           li
             i.fas.fa-circle(style="color: #8F52F5; font-size: 10px")
             | Entre otros.
-      .tarjeta.color-primario--borde.p-4(titulo="4. Asociación con tipo de escala" style="background-color: white")
+      .tarjeta.color-primario--borde.p-4(titulo="4. Asociación con <br class='d-md-none'/>tipo de escala" style="background-color: white")
         p Realizada la medición de atributos, esta se asocia a un tipo de escala:
         ul.lista-ul--color.mb-5
           li

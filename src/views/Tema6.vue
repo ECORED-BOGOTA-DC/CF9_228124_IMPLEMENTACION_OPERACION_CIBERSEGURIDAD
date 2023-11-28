@@ -51,7 +51,7 @@
         img.mb-4.mb-md-auto.px-0(src="@/assets/curso/temas/tema6/img-7.png" style="max-width: 295px" alt="imagen decorativa" data-aos="fade-right")
         .col-md.ps-md-4(data-aos="fade-left")
           h5 Enfoque basado en la evidencia
-          p Los criterios evaluados deben contar con la presentación y verificación de las evidencias correspondientes, lo cual da fe del ejercicio de auditoría dando fiabilidad a ésta.
+          p Los criterios evaluados deben contar con la presentación y verificación de las evidencias correspondientes, lo cual da fe del ejercicio de auditoría dando fiabilidad a esta.
 
     img.mx-auto(src="@/assets/curso/temas/tema6/img-8.svg" style="max-width: 610px" alt="imagen decorativa" data-aos="flip-up")
 </template>

@@ -29,7 +29,7 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Fases Sistema de gestión de seguridad de la información',
+        titulo: 'Fases sistema de gestión de seguridad de la información',
         desarrolloContenidos: true,
       },
 
@@ -143,9 +143,10 @@ export default {
     {
       tema: 'Principios de auditoría',
       referencia:
-        'Organización Internacional de Normalización (2013). <em>Seguridad de la información, ciberseguridad y protección de la privacidad.</em> (ISO 27001).',
+        'Organización Internacional de Normalización. (2013). <em>Seguridad de la información, ciberseguridad y protección de la privacidad.</em> (ISO 27001).',
       tipo: 'Norma técnica',
-      link: 'https://www.iso.org/standard/54534.html',
+      link:
+        'https://www.mintic.gov.co/gestionti/615/articles-5482_Modelo_de_Seguridad_Privacidad.pdf',
     },
   ],
   glosario: [
@@ -183,7 +184,7 @@ export default {
       referencia:
         'Instituto Nacional de Ciberseguridad (2015). <em>¿Sabes cómo se mide la seguridad de la información en tu empresa?</em> INCIBE. ',
       link:
-        'https://www.incibe.es/protege-tu-empresa/blog/mide-seguridad-informacion',
+        'https://www.incibe.es/empresas/blog/sabes-proteger-informacion-tu-empresa',
     },
     {
       referencia:
@@ -194,24 +195,18 @@ export default {
       referencia:
         'ISO (2020). <em>Fase 8 auditoría interna según ISO 27001.</em> (ISO 27001).',
       link:
-        'https://normaiso27001.es/fase-8-auditoría-interna-segun-iso-27001/',
+        'https://normaiso27001.es/fase-8-auditoria-interna-segun-iso-27001/',
     },
     {
       referencia:
         'ISO (2018). <em>Directrices para la auditoría de los sistemas de gestión.</em> (ISO 19011)',
-      link:
-        'https://e-collection-icontec-org.bdigital.sena.edu.co/normavw.aspx?ID=75245',
+      link: 'https://www.iso.org/obp/ui#iso:std:iso:19011:ed-3:v1:es',
     },
     {
       referencia:
         'Ministerio de Tecnologías de la Información y Comunicaciones (2016). <em>Guía de Auditoría.</em> MINTIC.',
       link:
-        'https://www.mintic.gov.co/gestionti/615/articles-5482_G15_Auditoría.pdf',
-    },
-    {
-      referencia:
-        'Organización Internacional de Normalización (ISO, 2013). <em>Tecnología de la información - Técnicas de seguridad - Sistemas de gestión de seguridad de la información - Requisitos.</em> (ISO 27001).',
-      link: 'https://www.iso.org/standard/54534.html',
+        'https://www.mintic.gov.co/gestionti/615/articles-5482_G15_Auditoria.pdf',
     },
   ],
   creditos: [
@@ -235,40 +230,42 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Eddy Cárdenas',
-          cargo: 'Experto temático',
-          centro: 'Regional Quindío - Centro de comercio, industria y turismo',
-        },
-        {
-          nombre: 'Zuleidy María Ruiz Torres',
-          cargo: 'Experto temático',
-          centro: 'Regional Tolima - Centro Comercio y Servicios',
-        },
-        {
-          nombre: 'Gloria Alexandra Orejarena Barrios',
-          cargo: 'Diseño instruccional',
-          centro: 'Regional Distrito Capital - Centro de Gestión Industrial',
-        },
-        {
           nombre: 'Rafael Neftalí Lizcano Reyes',
-          cargo: 'Responsable equipo de desarrollo curricular',
+          cargo: 'Asesoría metodológica y pedagógica',
           centro:
             'Regional Santander - Centro Industrial del Diseño y la Manufactura',
         },
         {
-          nombre: 'Jhon Jairo Rodríguez Pérez',
-          cargo: 'Corrección de estilo',
+          nombre: 'Hernando José Peña Hidalgo',
+          cargo: 'Experto temático',
+          centro:
+            'Regional Cauca - Centro de Teleinformática y Producción Industrial',
+        },
+        {
+          nombre: 'Fabián Leonardo Correa Díaz',
+          cargo: 'Diseño instruccional',
+          centro: 'Regional Tolima - Centro Agropecuario La Granja',
+        },
+        {
+          nombre: 'Carolina Coca Salazar',
+          cargo: 'Revisora metodológica y pedagógica',
           centro: 'Regional Distrito Capital - Centro de Diseño y Metrología',
         },
         {
-          nombre: 'Alix Cecilia Chinchilla Rueda',
-          cargo: 'Asesoría metodológica y pedagógica',
+          nombre: 'Sandra Patricia Hoyos Sepúlveda',
+          cargo: 'Corrección de estilo',
           centro:
-            'Regional Distrito Capital - Centro de Gestión de Mercados, Logística y Tecnologías de la Información',
+            'Regional Distrito Capital - Centro para la Industria de la Comunicación Gráfica',
         },
         {
           nombre: 'Nelly Parra Guarín',
           cargo: 'Adecuación instruccional',
+          centro:
+            'Regional Distrito Capital - Centro de Gestión de Mercados, Logística y Tecnologías de la Información',
+        },
+        {
+          nombre: 'Alix Cecilia Chinchilla Rueda',
+          cargo: 'Metodología para la formación virtual',
           centro:
             'Regional Distrito Capital - Centro de Gestión de Mercados, Logística y Tecnologías de la Información',
         },
@@ -296,7 +293,19 @@ export default {
             'Regional Distrito Capital - Centro de Gestión de Mercados, Logística y Tecnologías de la Información',
         },
         {
-          nombre: 'Nombre',
+          nombre: 'Ernesto Navarro Jaimes',
+          cargo: 'Animación y producción audiovisual',
+          centro:
+            'Regional Distrito Capital - Centro de Gestión de Mercados, Logística y Tecnologías de la Información',
+        },
+        {
+          nombre: 'Lady Adriana Ariza Luque',
+          cargo: 'Animación y producción audiovisual',
+          centro:
+            'Regional Distrito Capital - Centro de Gestión de Mercados, Logística y Tecnologías de la Información',
+        },
+        {
+          nombre: 'Laura Gisselle Murcia Pardo',
           cargo: 'Animación y producción audiovisual',
           centro:
             'Regional Distrito Capital - Centro de Gestión de Mercados, Logística y Tecnologías de la Información',

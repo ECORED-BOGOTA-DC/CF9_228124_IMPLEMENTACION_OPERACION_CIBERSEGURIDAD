@@ -12,11 +12,13 @@
       .col-lg-7.ps-lg-4
         .bloque-texto-b.bloque-texto-b-edit.color-primario.p-4(data-aos="fade-left")
           .bloque-texto-b__texto
-            p.mb-0 La aplicación de las auditorías en sistemas debe estar regida por una metodología que oriente los procesos necesarios a desarrollar y que explique los pasos que se deben de realizar. #[em La Guía de Auditoría] N.° 15 del MINTIC, propone una metodología para el desarrollo de una auditoría de sistemas.
+            p.mb-0 La aplicación de las auditorías en sistemas debe estar regida por una metodología que oriente los procesos necesarios a desarrollar y que explique los pasos que se deben de realizar. La Guía de Auditoría N.° 15 del MINTIC, propone una metodología para el desarrollo de una auditoría de sistemas.
     
 
     p.mb-5(data-aos="fade-right") A continuación, puede revisar la metodología para una auditoría de sistemas.
-
+    .titulo-sexto.color-acento-contenido.mb-3(data-aos="fade-right")
+      h5 Figura 2.
+      span Esquema de la metodología para una auditoría de sistemas
     img.mx-auto.mb-5(src="@/assets/curso/temas/tema10/img-2.svg" style="max-width: 714px" alt="imagen decorativa" data-aos="fade-left")
     p.mb-5(data-aos="fade-right") La metodología para la realización de una auditoría de sistemas, contempla pasos cabales que aseguran efectividad y oportunidad en el proceso mismo de la auditoría.
     ul.lista-ul--color.mb-5
@@ -44,9 +46,8 @@
       img.col-lg-6.mb-4.mb-lg-auto(src="@/assets/curso/temas/tema10/img-3.svg" style="max-width: 501px" alt="imagen decorativa métrica indirecta" data-aos="fade-right")
       img.col-lg-6.mb-4.mb-lg-auto(src="@/assets/curso/temas/tema10/img-4.svg" style="max-width: 501px" alt="imagen decorativa métrica directa" data-aos="fade-left")
 
-    p.mb-4(data-aos="fade-right") En el caso de métricas enfocadas en seguridad, estas permiten evaluar los controles implementados, cómo se cumplen los objetivos de seguridad establecidos por la organización, permitiendo identificar el grado de afectación que puede recibir un activo de información por la materialización de alguna amenaza.
-      br
-      |Las métricas de seguridad son usadas, en las auditorías, para:
+    p(data-aos="fade-right") En el caso de métricas enfocadas en seguridad, estas permiten evaluar los controles implementados, cómo se cumplen los objetivos de seguridad establecidos por la organización, permitiendo identificar el grado de afectación que puede recibir un activo de información por la materialización de alguna amenaza.
+    p.mb-5(data-aos="fade-right") Las métricas de seguridad son usadas, en las auditorías, para:
     ul.lista-ul--color.mb-4
       li
         i.fas.fa-check(style="color: #8F52F5" data-aos="fade-right")
@@ -82,7 +83,7 @@
       h3 Medición de la seguridad en la organización
     
     .titulo-sexto.color-acento-contenido.mb-3(data-aos="fade-right")
-      h5 Figura 1.
+      h5 Figura 3.
       span Niveles de decisión de una organización
     img.col-xl-9.mb-5.mx-auto(src="@/assets/curso/temas/tema10/img-5.svg" style="max-width: 877px" alt="Figura que presenta los niveles de una organización y se describen a continuación de la imagen." data-aos="fade-left")
 
@@ -90,39 +91,39 @@
 
     .container-title.mb-5(data-aos="fade-left")
       h3 Cómo se mide la seguridad en una organización
-    
+    .titulo-sexto.color-acento-contenido.mb-3(data-aos="fade-right")
+      h5 Figura 4.
+      span Medición de la seguridad en una organización 
     img.col-xl-10.mb-5.mx-auto(src="@/assets/curso/temas/tema10/img-6.svg" style="max-width: 1030px" alt="Cómo se mide la seguridad en una organización" data-aos="fade-left")
-    p.mb-5(data-aos="fade-right") Los objetivos de seguridad de la organización deben alinearse con los objetivos de negocio de la organización, de tal manera que se identifiquen los procesos que se deben cubrir, permitiendo identificar y establecer los controles necesarios. 
-      br
-      |Es así como se posibilita un mejor proceso de medición de la seguridad en una organización.
-    p.mb-5(data-aos="fade-right") A continuación, se describen los diferentes niveles de decisión en las métricas de seguridad:
+    p(data-aos="fade-right") Los objetivos de seguridad de la organización deben alinearse con los objetivos de negocio de la organización, de tal manera que se identifiquen los procesos que se deben cubrir, permitiendo identificar y establecer los controles necesarios. 
+    p.mb-5(data-aos="fade-right") Es así como se posibilita un mejor proceso de medición de la seguridad en una organización.
 
     .container-title.mb-5(data-aos="fade-left")
       h3 Métricas de seguridad para cada uno de los niveles de decisión
     p.mb-5(data-aos="fade-right") A continuación, se describen los diferentes niveles de decisión en las métricas de seguridad:
 
     .d-flex.flex-wrap.mb-5
-      img.col-lg-4.col-xl-3.mb-5.mb-lg-auto.mx-auto(src="@/assets/curso/temas/tema10/img-7.png" style="max-width: 295px" alt="Imagen decorativa" data-aos="fade-right")
-      .col-lg-8.col-xl-9.ps-lg-4
+      img.col-xl-3.mb-5.mb-xl-auto.mx-auto(src="@/assets/curso/temas/tema10/img-7.png" style="max-width: 295px" alt="Imagen decorativa" data-aos="fade-right")
+      .col-12.col-xl-9.ps-xl-4
         TabsA.color-primario(data-aos="fade-left")
-          .tarjeta.p-4(titulo="1. Métricas de nivel estratégico" style="background-color: #FCF5E9")
+          .tarjeta.p-4(titulo="1. Métricas de nivel<br class='d-none d-sm-flex d-lg-none d-xl-flex d-xxl-none'/> estratégico" style="background-color: #FCF5E9")
             ul.lista-ul--color.mb-5
               li
                 i.fas.fa-circle(style="color: #8F52F5; font-size: 10px")
-                | Conocer el % (tanto por ciento) de las cuentas inactivas de usuario, deshabilitadas. respecto al total de cuentas inactivas.
+                | Conocer el % (tanto por ciento) de las cuentas inactivas de usuario deshabilitadas, respecto al total de cuentas inactivas.
               li
                 i.fas.fa-circle(style="color: #8F52F5; font-size: 10px")
-                | Conocer el valor total de los incidentes de seguridad informática respecto al presupuesto total de seguridad informática.
+                | Conocer el valor total de los incidentes de seguridad informática, respecto al presupuesto total de seguridad informática.
               li
                 i.fas.fa-circle(style="color: #8F52F5; font-size: 10px")
-                | Conocer el % (tanto por ciento) de los nuevos funcionarios que completaron su entrenamiento de seguridad respecto al total de los nuevos funcionarios que ingresaron.
+                | Conocer el % (tanto por ciento) de los nuevos funcionarios que completaron su entrenamiento de seguridad, respecto al total de los nuevos funcionarios que ingresaron.
             p.mb-0 El propósito de esta métrica es el desempeño de personas y procesos.  
 
-          .tarjeta.p-4(titulo="2. Métricas del nivel táctico" style="background-color: #FCF5E9")
+          .tarjeta.p-4(titulo="2. Métricas del nivel<br class='d-none d-sm-flex d-lg-none d-xl-flex d-xxl-none'/> táctico" style="background-color: #FCF5E9")
             ul.lista-ul--color.mb-5
               li
                 i.fas.fa-circle(style="color: #8F52F5; font-size: 10px")
-                | Conocer el número de mensajes salientes con spyware o virus.
+                | Conocer el número de mensajes salientes con <em>spyware</em> o virus.
               li
                 i.fas.fa-circle(style="color: #8F52F5; font-size: 10px")
                 | Número de mensajes de spam detectado, respecto al número total de mensajes ignorados.
@@ -131,10 +132,10 @@
                 | Número de estaciones de trabajo en funcionamiento, configuradas correctamente, respecto al total de estaciones de trabajo.
               li
                 i.fas.fa-circle(style="color: #8F52F5; font-size: 10px")
-                | Número de spyware o virus detectados en estaciones de trabajo o servidores.
+                | Número de <em>spyware</em> o virus detectados en estaciones de trabajo o servidores.
             p.mb-0 El propósito de esta métrica es el desempeño de las tecnologías de seguridad informática. 
 
-          .tarjeta.p-4(titulo="3. Métricas del nivel operativo" style="background-color: #FCF5E9")
+          .tarjeta.p-4(titulo="3. Métricas del nivel<br class='d-none d-sm-flex d-lg-none d-xl-flex d-xxl-none'/> operativo" style="background-color: #FCF5E9")
             ul.lista-ul--color.mb-5
               li
                 i.fas.fa-circle(style="color: #8F52F5; font-size: 10px")

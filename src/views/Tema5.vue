@@ -14,11 +14,10 @@
       .bloque-texto-g__texto.p-4(data-aos="fade-right")
         p.mb-0 De acuerdo con la norma GTC-ISO 19011:2018, una auditoría de sistemas de gestión se debe establecer bajo ciertas condiciones que permitan la construcción y desarrollo de la misma, en la organización.
     
-    .container-title.mb-5
-      h3(data-aos="fade-left") Consideraciones Importantes Auditoría
-    
     p.mb-5(data-aos="fade-right") Las auditorías de los sistemas de gestión de la seguridad de la información, deben ser establecidas teniendo en cuenta algunas condiciones que favorecerán, rotundamente, tanto su construcción como su desarrollo.
-
+    .titulo-sexto.color-acento-contenido.mb-3(data-aos="fade-right")
+      h5 Figura 1.
+      span Procesos del SGSI en cada una de las fases
     img.mb-5(src="@/assets/curso/temas/tema5/img-2.svg" alt="imagen decorativa" data-aos="fade-right")
     p.mb-5(data-aos="fade-right") El esquema de auditoría contempla:
 
@@ -51,10 +50,8 @@
               span 6
             | La respectiva revisión y mejora del programa.
     p(data-aos="fade-right") Los elementos más significativos, que deben incorporarse para el exitoso desarrollo de la auditoría; incorporan al ciclo PHVA: planificar, hacer, verificar, actuar, ciclo común en todos los sistemas de gestión.
-      br
-      |Una vez construido el esquema de auditoría se da inicio a la auditoría en la cual se preparan las actividades para la misma, se ejecutan tales actividades, se prepara y distribuye el informe, con el cual se cierra el proceso de auditoría.
-      br
-      |Importante tener en cuenta que lo que hace que la auditoría sea un proceso completo es la realización de las actividades de seguimiento de la misma. Acción que está dentro de la fase Actuar del ciclo PHVA.
+    p(data-aos="fade-right") Una vez construido el esquema de auditoría se da inicio a la auditoría en la cual se preparan las actividades para la misma, se ejecutan tales actividades, se prepara y distribuye el informe, con el cual se cierra el proceso de auditoría.
+    p(data-aos="fade-right") Importante tener en cuenta que lo que hace que la auditoría sea un proceso completo es la realización de las actividades de seguimiento de la misma. Acción que está dentro de la fase Actuar del ciclo PHVA.
     
 
 </template>

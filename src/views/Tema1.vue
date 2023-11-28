@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido(data-aos="fade-right")
       .titulo-principal__numero
         span 1
-      h1 Fases Sistema de gestión de seguridad de la información
+      h1 Fases sistema de gestión de seguridad de la información
     
     .bloque-texto-g.bloque-texto-g-edit.color-acento-contenido.p-3.p-sm-4.p-md-5.mb-5
       .bloque-texto-g__img(
@@ -42,7 +42,7 @@
               | Análisis de procesos.
             li.mb-0.pb-0
               i.me-0.lista-ul__vineta(style="color: #500C75;")
-              | Definir Alcance.
+              | Definir alcance.
             li.mb-0.pb-0
               i.me-0.lista-ul__vineta(style="color: #500C75;")
               | Elaborar política de seguridad.
