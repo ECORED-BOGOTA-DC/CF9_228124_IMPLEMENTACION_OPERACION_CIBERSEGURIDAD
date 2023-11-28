@@ -199,7 +199,7 @@ export default {
     },
     {
       referencia:
-        'ISO (2018). <em>Directrices para la auditoría de los sistemas de gestión.</em> (ISO 19011)',
+        'ISO (2018). <em>Directrices para la auditoría de los sistemas de gestión.</em> (ISO 19011).',
       link: 'https://www.iso.org/obp/ui#iso:std:iso:19011:ed-3:v1:es',
     },
     {
