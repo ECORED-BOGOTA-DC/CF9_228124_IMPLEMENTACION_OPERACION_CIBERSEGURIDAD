@@ -15,7 +15,7 @@
             p.mb-0 Para establecer  o entender un ejercicio de auditoría es necesario referirse a la norma GTC-ISO 19011:2018, la cual establece las directrices para la auditoría de los sistemas de gestión.
 
     .container-100.pt-4(style="background: linear-gradient(180deg, rgba(220,206,227,1) 50%, rgba(255,255,255,1) 50%);")
-      p.mb-5(data-aos="fade-right") Estas son realizadas por la misma organización o también llamadas auditorías internas, las cuales buscan verificar que se estén aplicando y cumpliendo los requisitos establecidos en la estrategia de seguridad.
+      p.mb-5(data-aos="fade-right") Entérese de algunas definiciones y lineamientos que da la norma y que aseguran que el proceso de evaluación y auditoría del sistema de gestión de seguridad de información en las organizaciones, sea efectivo:
       
       figure(data-aos="fade-left")
         .video

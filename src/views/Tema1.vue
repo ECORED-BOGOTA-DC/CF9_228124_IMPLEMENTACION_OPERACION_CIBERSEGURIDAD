@@ -19,7 +19,7 @@
       ImagenInfografica.col-xl-6.col-lg-8.mx-auto(data-aos="fade-left")
         template(v-slot:imagen)
           figure
-            img(src='@/assets/curso/temas/tema1/img-2.svg' alt='Esta imagen describe las fases del Sistema de Gestión de Seguridad de la Información (SGSI), la cual se divide en 4 fases (Planear, Hacer, Verificar, Actuar)')
+            img(src='@/assets/curso/temas/tema1/img-2.svg' alt='Imagen que menciona las fases del Sistema de Gestión de Seguridad de la Información (SGSI), las cuales se desarrollan en la parte inferior.')
 
         .tarjeta.p-3(x="25.45%" y="16.05%" numero="" style="background-color: #FFECD4")
           ul.lista-ul

@@ -7,7 +7,7 @@
     .row.justify-content-center
       .col-lg-10.mb-5
         figure
-          img(src="@/assets/curso/temas/sintesis.svg", alt="La síntesis resume a través de un esquema los temas y subtemas abordados en el componente formativo y que son conocimiento esencial para alcanzar el resultado de aprendizaje. para este caso se profundizó en temas como las fases del sistema de gestión de seguridad de la información y las características de cada fase; de otra parte las diferentes técnicas y tipos de auditorías, entre otras cosas.")
+          img(src="@/assets/curso/temas/sintesis.svg", alt="Síntesis que resume a través de un esquema los temas y subtemas abordados en el componente formativo y que son conocimiento esencial para alcanzar el resultado de aprendizaje. Para este caso se profundizó en temas como las fases del sistema de gestión de seguridad de la información y las características de cada fase; de otra parte las diferentes técnicas y tipos de auditorías, entre otras cosas.")
       .col-auto
         a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono

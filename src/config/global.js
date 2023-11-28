@@ -72,7 +72,7 @@ export default {
       {
         nombreRuta: 'tema8',
         numero: '8',
-        titulo: 'Clasificación de auditoría informáticas',
+        titulo: 'Clasificación de auditorías informáticas',
         desarrolloContenidos: true,
       },
       {
@@ -204,6 +204,11 @@ export default {
     },
     {
       referencia:
+        'ISO (2022). <em>Tecnología de la información - Técnicas de seguridad - Sistemas de gestión de seguridad de la información - Requisitos.</em> (ISO 27001).',
+      link: 'https://www.iso.org/standard/27001',
+    },
+    {
+      referencia:
         'Ministerio de Tecnologías de la Información y Comunicaciones (2016). <em>Guía de Auditoría.</em> MINTIC.',
       link:
         'https://www.mintic.gov.co/gestionti/615/articles-5482_G15_Auditoria.pdf',
@@ -332,7 +337,7 @@ export default {
           cargo:
             'Validación de recursos educativos digitales y vinculación LMS',
           centro:
-            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+            'Regional Distrito Capital - Centro de Gestión De Mercados, Logística y Tecnologías de la Información',
         },
       ],
     },

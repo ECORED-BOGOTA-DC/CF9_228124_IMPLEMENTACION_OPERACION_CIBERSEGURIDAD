@@ -12,7 +12,7 @@
       .col-lg-7.ps-lg-4
         .bloque-texto-b.bloque-texto-b-edit.color-primario.p-4(data-aos="fade-left")
           .bloque-texto-b__texto
-            p.mb-0 El auditor juega un papel importante en el desarrollo del ejercicio de auditoría, ya que además de tener un conocimiento de la organización y los procesos, es quien da fe de la verificación en relación al cumplimiento de las políticas y controles de seguridad, objeto de evaluación.
+            p.mb-0 El auditor juega un papel importante en el desarrollo del ejercicio de auditoría, ya que además de tener un conocimiento de la organización y los procesos, es quien da fe de la verificación en relación con el cumplimiento de las políticas y controles de seguridad, objeto de evaluación.
     p.mb-5(data-aos="fade-right") Además, el auditor debe contar con las siguientes cualidades y capacidades para lograr los objetivos del ejercicio:
 
     .titulo-sexto.color-acento-contenido.mb-3(data-aos="fade-right")

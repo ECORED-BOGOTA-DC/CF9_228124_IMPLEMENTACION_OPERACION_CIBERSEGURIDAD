@@ -19,7 +19,7 @@
     .titulo-sexto.color-acento-contenido.mb-3(data-aos="fade-right")
       h5 Figura 2.
       span Esquema de la metodología para una auditoría de sistemas
-    img.mx-auto.mb-5(src="@/assets/curso/temas/tema10/img-2.svg" style="max-width: 714px" alt="imagen decorativa" data-aos="fade-left")
+    img.mx-auto.mb-5(src="@/assets/curso/temas/tema10/img-2.svg" style="max-width: 714px" alt="Figura que contiene un esquema de la metodología para una auditoría de sistemas, la cual se describe en la parte inferior." data-aos="fade-left")
     p.mb-5(data-aos="fade-right") La metodología para la realización de una auditoría de sistemas, contempla pasos cabales que aseguran efectividad y oportunidad en el proceso mismo de la auditoría.
     ul.lista-ul--color.mb-5
       li
@@ -61,7 +61,7 @@
       li
         i.fas.fa-check(style="color: #8F52F5" data-aos="fade-right")
         | Apoyar la gestión de riesgos.
-    p.mb-4(data-aos="fade-right") Las métricas deben conservar las algunas características:
+    p.mb-4(data-aos="fade-right") Las métricas deben conservar algunas características:
     ul.lista-ul--color.mb-5
       li
         i.fas.fa-check(style="color: #8F52F5" data-aos="fade-right")
@@ -85,7 +85,7 @@
     .titulo-sexto.color-acento-contenido.mb-3(data-aos="fade-right")
       h5 Figura 3.
       span Niveles de decisión de una organización
-    img.col-xl-9.mb-5.mx-auto(src="@/assets/curso/temas/tema10/img-5.svg" style="max-width: 877px" alt="Figura que presenta los niveles de una organización y se describen a continuación de la imagen." data-aos="fade-left")
+    img.col-xl-9.mb-5.mx-auto(src="@/assets/curso/temas/tema10/img-5.svg" style="max-width: 877px" alt="Figura que presenta los niveles de una organización y se describen debajo de la imagen." data-aos="fade-left")
 
     p.mb-5(data-aos="fade-right") Uno de los objetivos de las estrategias de seguridad es garantizar los pilares de la seguridad de la información a partir de la implementación de estrategias, acciones y controles… pero, anteriormente, estos deben poder medirse para conocer el grado de eficiencia; es aquí donde se hace uso de las métricas, las cuales favorecen la identificación del nivel de apropiación en lo operativo, lo táctico y lo estratégico: los tres niveles de decisión, calves, en la organización.
 
@@ -94,7 +94,7 @@
     .titulo-sexto.color-acento-contenido.mb-3(data-aos="fade-right")
       h5 Figura 4.
       span Medición de la seguridad en una organización 
-    img.col-xl-10.mb-5.mx-auto(src="@/assets/curso/temas/tema10/img-6.svg" style="max-width: 1030px" alt="Cómo se mide la seguridad en una organización" data-aos="fade-left")
+    img.col-xl-10.mb-5.mx-auto(src="@/assets/curso/temas/tema10/img-6.svg" style="max-width: 1030px" alt="Figura que hace relaciona cómo es la medición de la seguridad en una organización, la cual se da por tres objetivos de negocios y cada uno con dos objetivos de seguridad, enumerados del 1 al 6. Luego se incluye una tabla de control de cada proceso de seguridad." data-aos="fade-left")
     p(data-aos="fade-right") Los objetivos de seguridad de la organización deben alinearse con los objetivos de negocio de la organización, de tal manera que se identifiquen los procesos que se deben cubrir, permitiendo identificar y establecer los controles necesarios. 
     p.mb-5(data-aos="fade-right") Es así como se posibilita un mejor proceso de medición de la seguridad en una organización.
 

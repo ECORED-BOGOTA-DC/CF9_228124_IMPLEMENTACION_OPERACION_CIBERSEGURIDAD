@@ -18,7 +18,7 @@
     .titulo-sexto.color-acento-contenido.mb-3(data-aos="fade-right")
       h5 Figura 1.
       span Procesos del SGSI en cada una de las fases
-    img.mb-5(src="@/assets/curso/temas/tema5/img-2.svg" alt="imagen decorativa" data-aos="fade-right")
+    img.mb-5(src="@/assets/curso/temas/tema5/img-2.svg" alt="Imagen que describe los procesos del SGSI en cada una de las fases, de acuerdo a una ejemplificación de los capítulos 5 y 6. Estos procesos se describen en la parte inferior" data-aos="fade-right")
     p.mb-5(data-aos="fade-right") El esquema de auditoría contempla:
 
     .mx-xl-0.mx-auto.d-flex.flex-wrap.justify-content-center.justify-content-xl-start.ms-xl-5.ps-xl-5.mb-5

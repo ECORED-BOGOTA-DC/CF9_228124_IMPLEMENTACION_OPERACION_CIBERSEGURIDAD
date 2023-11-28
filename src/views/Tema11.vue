@@ -12,7 +12,7 @@
       .col-lg-7.ps-lg-4
         .bloque-texto-b.bloque-texto-b-edit.color-primario.p-4(data-aos="fade-left")
           .bloque-texto-b__texto
-            p.mb-0 Los líderes de procesos deben estar informados sobre cuáles son las métricas establecidas, y cómo éstas ayudan a cumplir los objetivos de seguridad, con el fin de que se desarrollen y documenten las acciones encaminadas al cumplimiento de dichos objetivos.
+            p.mb-0 Los líderes de procesos deben estar informados sobre cuáles son las métricas establecidas, y cómo estas ayudan a cumplir los objetivos de seguridad, con el fin de que se desarrollen y documenten las acciones encaminadas al cumplimiento de dichos objetivos.
     
     p.mb-5(data-aos="fade-right") Algunas generalidades de suma importancia y que debe tener en cuenta para la aplicación de mediciones de seguridad son:
     TabsA.color-primario.mb-5(data-aos="fade-left")

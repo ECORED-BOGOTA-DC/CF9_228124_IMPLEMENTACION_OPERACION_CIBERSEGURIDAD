@@ -16,7 +16,7 @@
           img(src='@/assets/curso/temas/tema7/img-2.svg' alt='')
 
       .tarjeta.p-3(x="3.8%" y="50.8%" numero="+" style="background-color: #FFECD4")
-        p.mb-0 La auditoría debe ser programada, aprobada e informada a todos los lideres de procesos e interesados con tiempo de antelación.
+        p.mb-0 La auditoría debe ser programada, aprobada e informada a todos los líderes de procesos e interesados con tiempo de antelación.
       .tarjeta.p-3(x="9.2%" y="65%" numero="+" style="background-color: #FFECD4")
         p.mb-0 Para las auditorías, es necesario que todos los líderes de procesos y equipos estén informados y alineados en atención a los requerimientos de los auditores, de tal manera que pueda ser presentada cualquier evidencia o requerimiento que sea solicitado por el auditor.
       .tarjeta.p-3(x="17.4%" y="77%" numero="+" style="background-color: #FFECD4")

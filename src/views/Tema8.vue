@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 8
-      h1 Clasificación de auditoría informáticas
+      h1 Clasificación de auditorías informáticas
 
     .col-xl-10.mx-auto.d-flex.flex-wrap.align-items-center.mb-5
       img.col-lg-5.mb-4.mb-lg-auto(src="@/assets/curso/temas/tema8/img-1.png" style="max-width: 400px" alt="imagen decorativa" data-aos="fade-right")
