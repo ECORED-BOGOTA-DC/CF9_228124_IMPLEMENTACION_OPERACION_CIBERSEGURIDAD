@@ -35,12 +35,12 @@
             td Otra auditoría externa de parte interesada 
             td Auditoría legal, reglamentaria o similar
     
-    p.mb-5(data-aos="fade-right") Pero, ¿cuáles son las especificidades de cada tipo de auditoría? Aquí se los presentamos; revise la siguiente infografia y descúbralo; le sugerimos tomar nota de ello en su libreta personal de apuntes. ¡Adelante!
+    p.mb-5(data-aos="fade-right") Pero, ¿cuáles son las especificidades de cada tipo de auditoría? Aquí se los presentamos; revise la siguiente infografía y descúbralo; le sugerimos tomar nota de ello en su libreta personal de apuntes. ¡Adelante!
 
     ImagenInfografica.color-acento-contenido.col-xl-10.mx-auto(data-aos="fade-left")
       template(v-slot:imagen)
         figure
-          img(src='@/assets/curso/temas/tema3/img-2.svg' alt='Muestra una infografia de las espesificaciones para cada tipo de auditoría')
+          img(src='@/assets/curso/temas/tema3/img-2.svg' alt='Muestra una infografía de las espesificaciones para cada tipo de auditoría')
 
       .tarjeta.p-3(x="37.8%" y="10%" numero="" style="background-color: #FFECD4")
         h5 Los tipos de auditoría

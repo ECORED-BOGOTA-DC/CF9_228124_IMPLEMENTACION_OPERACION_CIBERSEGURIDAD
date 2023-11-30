@@ -12,9 +12,9 @@
       .d-flex.flex-wrap.flex-md-nowrap.align-items-center.mb-5
         img(src="@/assets/curso/temas/img-1.svg" style="max-width: 85px" alt="Imagen decorativa de un documento" data-aos="fade-right")
         p.ps-md-4.mb-0(data-aos="fade-left") Le invitamos a adentrarse en el estudio de este componente, reconociendo el valor fundamental que tiene para su formación como tecnólogo/a en implementación y operación de la ciberseguridad.
-      p.mb-5 Se describen los desafíos y riesgos a los que las empresas se enfrentan en el entorno digital actual, así como los mejores procedimientos y regulaciones para garantizar la seguridad de la información.
+      p.mb-5(data-aos="fade-right") Se describen los desafíos y riesgos a los que las empresas se enfrentan en el entorno digital actual, así como los mejores procedimientos y regulaciones para garantizar la seguridad de la información.
       .d-flex.flex-wrap
-        LineaTiempoD.color-acento-contenido.col-lg-8.pe-lg-4
+        LineaTiempoD.color-acento-contenido.col-lg-8.pe-lg-4(data-aos="fade-right")
           p(numero="1" titulo="Contexto Norma ISO/IEC 27001:2013") Dentro del ciclo que enmarca la norma ISO/IEC 27001:2013, se establece una fase que permite evaluar el rendimiento del sistema de seguridad de la información y, en especial, los controles que fueron propuestos para mejorar la seguridad de los activos de información de la organización.
           p(numero="2" titulo="Evaluación Norma ISO/IEC 27001:2013") Esta fase implica establecer una métrica, bajo la cual se identifiquen los rangos de valores aceptables y no aceptables, de cada control. 
             br
