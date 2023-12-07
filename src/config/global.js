@@ -29,7 +29,7 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Fases sistema de gestión de seguridad de la información',
+        titulo: 'Fases Sistema de Gestión de Seguridad de la Información',
         desarrolloContenidos: true,
       },
 
