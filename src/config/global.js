@@ -54,7 +54,7 @@ export default {
       {
         nombreRuta: 'tema5',
         numero: '5',
-        titulo: 'Consideraciones importantes para una auditoría',
+        titulo: 'Consideraciones importantes para la auditoría',
         desarrolloContenidos: true,
       },
       {

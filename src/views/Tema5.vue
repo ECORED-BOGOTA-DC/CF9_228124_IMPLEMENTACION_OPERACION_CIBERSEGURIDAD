@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 5
-      h1 Consideraciones importantes para una auditoría
+      h1 Consideraciones importantes para la auditoría
 
     .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-5.col-xl-10.mx-auto
       .bloque-texto-g__img(
